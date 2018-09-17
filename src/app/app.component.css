@@ -1,0 +1,179 @@
+.nofloat{
+    float: none;
+}
+
+.nomargin {
+    margin: 0;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.notbold {
+    font-weight: normal;
+}
+
+.centered {
+    text-align: center;
+}
+
+.uppercased {
+    text-transform: uppercase;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+.white-text {
+    color: rgb(255, 255, 255);
+}
+
+.grey-text {
+    color: #71839d;
+}
+
+.blue {
+    background: rgb(107,114,248);
+    background: linear-gradient(90deg, rgba(107,114,248,1) 35%, rgba(0,212,255,1) 100%);        
+}
+
+.bg-faded {
+    background: rgb(255, 255, 255, .3);
+}
+
+.rounded-100 {
+    border-radius: 100px;
+}
+
+.section-space {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.container-app {
+    height: 3000px;
+}
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu > li {
+    padding-right: 30px;
+}
+
+.navbar-btn {
+    padding: 20px;
+    float: right;
+}
+
+.programmable-section{
+    height: 750px;
+    padding-top: 20px;
+}
+
+.requestAccess-button {
+    color: rgb(208, 209, 213);
+    background: rgb(29, 43, 65);
+}
+
+.private-beta-text {
+    padding-top: 50px;
+}
+
+.site-version {
+    padding: 10px;
+}
+
+.illustration {
+    position: relative;
+}
+
+.phone-img {
+    position: absolute;
+    right: 40px;
+}
+
+.card-img {
+    position: absolute;
+    margin-top: 325px;
+    z-index: 2;
+}
+
+.account-description {
+    margin-bottom: 40px;
+}
+
+.xmltext {
+    margin-top: 30px;
+}
+
+.api-section {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.user-icon {
+    font-size: 45px;
+    color: #4b97ff;
+}
+
+.moreinfoAPI {
+    color: #7bb1ff;
+}
+
+.account-options> ul {
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.account-options> ul> li {
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.account-options> ul> li> a{
+    cursor: default;
+}
+.account-options> ul> li> a:hover {
+    text-decoration: none;
+}
+
+.card-section {
+    background-color: #f4f9fc;
+}
+
+.card-title {
+    color: #27354a;
+}
+
+.credit-card-logo {
+    color: #4b97ff;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+.credit-card-text, .rootcode-text {
+    line-height: 40px;
+}
+
+.master-card-logo {
+    padding-top: 20px;
+}
+
+.code-logo {
+    color: #4b97ff;
+    font-size: 40px;
+}
+
+
+
+
+

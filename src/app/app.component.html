@@ -1,20 +1,109 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="container-app">
+    <nav class="navbar blue nomargin white-text">
+      <div class="container">
+        <div class="navbar-header nofloat">
+          <div class="row">
+            <div class="col-md-2 col-xs-2">
+              <a class="navbar-brand" href="#">
+                <img alt="logo" src="../assets/logo.png">
+              </a>
+            </div>
+            <div class="col-md-8 col-xs-6">
+              <ul class="menu nav navbar-nav">
+                <li><a href="" class="navbar-link white-text">Products</a></li>
+                <li><a href="" class="navbar-link white-text">Company</a></li>
+                <li><a href="" class="navbar-link white-text">Blog</a></li>
+                <li><a href="" class="navbar-link white-text">Docs</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 col-xs-4">
+              <button type="button" class="btn navbar-btn white-text bg-faded uppercased">Sign in</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="programmable-section row blue white-text">
+      <div class="container">
+        <div class="col-md-6 private-beta-text">
+            <span class="site-version rounded-100 bg-faded uppercased" alt="version of site">Private beta</span>
+            <h2>Programmable banking <br> for software developers</h2>
+            <p>A complete financial services toolkit, helping you build <br> your own baking experience with code.</p>
+            <button type="button" class="btn requestAccess-button uppercased">Request early access &#8594;</button>
+          </div>
+          <div class="col-md-6 illustration">
+            <img src="../assets/card_big.png" alt="card-image" class="card-img">
+            <img src="../assets/phone.png" alt="phone-image" class="phone-img">
+          </div>
+      </div>
+    </div>
+    <div class="row api-section">
+      <div class="container">
+        <div class="account-description centered">
+            <i class="fas fa-user-check user-icon"></i>
+          <h2>A bank account with full API access</h2>
+          <span alt="description of account" class="grey-text">Control your money programmatically, build your own features, and securely integrate <br> 
+            with other services. Fetch transactions, view balances, make payments, or update <br> 
+            beneficiaries - all wrapped behind an easy to use REST API.</span>
+          <h3 alt="noXMLtext" class="italic bold grey-text xmltext">No XML, we promise.</h3>  
+        </div>
+        <div class="col-md-4 account-options">
+            <ul class="uppercased">
+                <li>
+                  <a href="#" class="option item">Payments</a>
+                </li>  
+                <li>
+                    <a href="#" class="option item">Transactions</a>
+                </li> 
+                <li>
+                    <a href="#" class="option item">Cards</a>
+                </li>
+                <li>
+                    <a href="#" class="option item">Contacts</a>
+                </li>
+              </ul>
+              <a href="" class="moreinfoAPI uppercased underlined" alt="link to more info on API">See more on API's &#8594;</a>
+        </div>
+        <div class="col-md-8 code-img">
+          <img src="../assets/code_demo.png" alt="code-sample-img">
+        </div>
+      </div>
+    </div>
+    <div class="card-section section-space row">
+      <div class="container">
+        <div class="card-description col-md-4">
+            <i class="fas fa-credit-card credit-card-logo"></i>
+            <h2 class="card-title">Programmable Cards</h2>
+            <span class="grey-text credit-card-text">Your Root account comes with a programmable Mastercard &#174; - and many more virtual ones. <br><br>
+                These work any shop that accepts Mastercard. Take full control of your online payments by creating 
+                a unique  card number for every shop -  all available through the API.
+            </span>
+            <div class="master-card-logo">
+                <img src="../assets/mastercard.png" alt="">
+            </div>
+        </div>
+        <div class="col-md-8 cards-img">
+          <img src="../assets/cards.png" alt="card palette">
+        </div>
+      </div>
+    </div>
+    <div class="row rootcode-section section-space centered">
+      <div class="container">
+          <i class="fa fa-code code-logo"></i>
+          <h2 class="notbold">Introducing rootcode</h2>
+          <div class="rootcode-text">
+            <span class="grey-text">Build your own rules and limits using RootCode - securely hosted Javascript cloud <br>
+              functions that execute during your card transactions. Limit your fast-food spend, <br> 
+              track your coffee intake on the fly, or send money to your favorite charity on <br>
+              every swipe - anything goes.
+            </span>
+          </div>
+          <div class="col-sm-6 code-sample">
+            <img src="../assets/code_demo2.png" alt="">
+          </div>
+          <div class="col-sm-6">
 
+          </div>
+      </div>
+    </div>
+</div>
