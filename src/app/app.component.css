@@ -42,6 +42,10 @@
     background: linear-gradient(90deg, rgba(107,114,248,1) 35%, rgba(0,212,255,1) 100%);        
 }
 
+.blue-hover {
+    color: rgb(93, 151, 251);
+}
+
 .bg-faded {
     background: rgb(255, 255, 255, .3);
 }
@@ -171,6 +175,18 @@
 .code-logo {
     color: #4b97ff;
     font-size: 40px;
+}
+
+.code-sample img {
+    width: 100%;
+}
+
+.rootcode-examples {
+    padding-top: 15px;
+}
+
+.icon-heart {
+    margin-top: 10px;
 }
 
 
