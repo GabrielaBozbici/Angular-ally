@@ -1,3 +1,11 @@
+.flexed {
+    display: flex;
+}
+
+.fullheight {
+    height: 100%;
+}
+
 .nofloat{
     float: none;
 }
@@ -39,6 +47,10 @@
 
 .grey-text {
     color: #71839d;
+}
+
+.grey-bg {
+    background-color: #f4f9fc;
 }
 
 .blue {
@@ -154,10 +166,6 @@
     text-decoration: none;
 }
 
-.card-section {
-    background-color: #f4f9fc;
-}
-
 .card-title {
     color: #27354a;
 }
@@ -212,6 +220,92 @@
 
 .panel:hover i, .panel:hover h5 {
     color: rgb(93, 151, 251);
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.moreinfoCommunity {
+    display: inline-block;
+    margin-top: 60px;
+}
+
+.developer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dev-card {
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.caption {
+    flex: 1;
+    margin-bottom: 30px;
+}
+
+.developer-img > img {
+    border-radius: 50%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.blog-logo {
+    background: #fff;
+    border-radius: 50%;
+}
+.blog-logo>i  {
+    color: rgb(93, 151, 251);
+    padding: 20px;
+    font-size: 20px;
+}
+
+.title {
+    margin-left: 15px;
+}
+
+.news-section .thumbnail {
+    padding: 15px;
+}
+
+.info-body {
+    margin-top: 15px;
+}
+
+.readBlog, .learnMore {
+    display: block;
+    margin-top: 30px;
+}
+
+.contact {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+.contact-form {
+    display: flex;
+    width: 100%;
+    box-shadow: 2px 2px 45px 2px rgba(228, 228, 228, 0.5);
+}
+
+.inputForm {
+    flex: 7;
+}
+.sendEmail {
+    width: 20%;
+    color: #cccff9;
+    background: rgb(107,114,248);
+    background: linear-gradient(90deg, rgba(107,114,248,1) 35%, rgba(104,155,252,1) 100%);
 }
 
 
