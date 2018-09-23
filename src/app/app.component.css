@@ -38,9 +38,6 @@
     text-transform: uppercase;
 }
 
-.underlined {
-    text-decoration: underline;
-}
 .white-text {
     color: rgb(255, 255, 255);
 }
@@ -53,6 +50,9 @@
     background-color: #f4f9fc;
 }
 
+.footer-blue {
+    background: #202b3f;
+}
 .blue {
     background: rgb(107,114,248);
     background: linear-gradient(90deg, rgba(107,114,248,1) 35%, rgba(0,212,255,1) 100%);        
@@ -68,6 +68,10 @@
 
 .rounded-100 {
     border-radius: 100px;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
 }
 
 .section-space {
@@ -144,11 +148,26 @@
     color: #4b97ff;
 }
 
-.moreinfoAPI {
-    color: #7bb1ff;
+.moreDetailLink {
+    color: #7bb1ff !important;
+    display: inline-block;
+    border-bottom: 1px solid #7bb1ff;
+    margin-top: 30px;
 }
 
-.account-options> ul {
+.moreDetailLink-white {
+    display: inline-block;
+    border-bottom: 1px solid #fff;
+    margin-top: 60px;
+}
+.moreDetailLink:hover {
+    text-decoration: none;
+}
+
+.moreDetailLink-white :hover{
+    text-decoration: none;;
+}
+.account-options> ul, .privayPolicy> ul {
     padding: 0;
     list-style: none;
     text-decoration: none;
@@ -227,11 +246,6 @@
     justify-content: space-between;
 }
 
-.moreinfoCommunity {
-    display: inline-block;
-    margin-top: 60px;
-}
-
 .developer {
     display: flex;
     flex-direction: row;
@@ -281,11 +295,6 @@
     margin-top: 15px;
 }
 
-.readBlog, .learnMore {
-    display: block;
-    margin-top: 30px;
-}
-
 .contact {
     display: flex;
     height: 100%;
@@ -319,7 +328,58 @@
     margin-left: 5px;
   }
 
+  .footer-menu h5 {
+    color: #b2b6be;
+  }
 
+  .footer-menu ul {
+    padding: 0;
+  }
+
+  .footer-menu ul li {
+    list-style: none;
+  }
+
+.footer-menu ul li a, .trademark-issue, .privayPolicy ul li a {
+    text-decoration: none;
+    color: #8a909b;
+    margin-top: 15px;
+}
+
+.footer-social {
+    text-align: right;
+    color: #8a909b;
+}
+
+.social-icons a i {
+    font-size: 20px;
+    color: #a6aab3;
+    margin-left: 10px;
+}
+
+.social-icons a:hover i, .privayPolicy ul li:hover a {
+    color: #fff;
+}
+
+.openings {
+    text-decoration: none;
+}
+
+.trademark-issue, .privayPolicy {
+    font-size: 12px;
+}
+
+.privayPolicy {
+    text-align: right;
+}
+.privayPolicy ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+.privayPolicy ul li a:hover {
+    text-decoration: none;
+}
 
 
 
